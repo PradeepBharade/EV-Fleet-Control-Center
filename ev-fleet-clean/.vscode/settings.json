@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/.git": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

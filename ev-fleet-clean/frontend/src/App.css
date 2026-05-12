@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #060812;
+  color: #e0eaff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+input::placeholder {
+  color: #3a4a6a;
+}
+
+input:focus {
+  border-color: rgba(0, 207, 255, 0.3) !important;
+  box-shadow: 0 0 0 2px rgba(0, 207, 255, 0.08);
+}

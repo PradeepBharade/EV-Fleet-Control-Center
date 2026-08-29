@@ -30,6 +30,20 @@ This project simulates a control center used to monitor and manage autonomous el
 
 WebSockets are used to provide real-time communication between the frontend and backend for vehicle telemetry and control events.
 
+## Screenshots
+
+### Fleet Dashboard
+
+![Fleet Dashboard](screenshots/fleet-dashboard.png)
+
+### Camera Monitoring
+
+![Camera Monitoring](screenshots/camera-monitoring.png)
+
+### Analytics Dashboard
+
+![Analytics Dashboard](screenshots/analytics-dashboard.png)
+
 ## Getting Started
 
 ### Prerequisites
